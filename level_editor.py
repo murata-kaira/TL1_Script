@@ -41,7 +41,7 @@ class TOPBAR_MT_my_menu(bpy.types.Menu):
         self.layout.operator("wm.url_open_preset", text="Manual", icon='HELP')
         #区切りの線
         self.layout.separator()
-        self.layout,operator("wm.url_open_preset", text="Manual", icon='HELP')
+        self.layout.operator("wm.url_open_preset", text="Manual", icon='HELP')
        
         
 
